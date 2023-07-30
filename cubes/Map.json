@@ -1,0 +1,17 @@
+{
+	"@type":"Cube",
+	"Name":"Map",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Version')"
+		},
+		{
+			"@id":"Dimensions('Stores')"
+		},
+		{
+			"@id":"Dimensions('Account')"
+		}
+	],
+	"Views@Code.links":[]
+}

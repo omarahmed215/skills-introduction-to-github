@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Expenses",
+	"Hierarchies@Code.links":
+	[
+		"Expenses.hierarchies/Expenses.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Expenses')/Hierarchies('Expenses')"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"RFI_Measures",
+	"Hierarchies@Code.links":
+	[
+		"RFI_Measures.hierarchies/RFI_Measures.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('RFI_Measures')/Hierarchies('RFI_Measures')"
+	}
+}

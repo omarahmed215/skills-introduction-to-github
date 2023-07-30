@@ -1,0 +1,10 @@
+SKIPCHECK;
+
+['Variance %'] = C:(['Version':'Actual'] - ['Version':'Budget'])\['Version':'Budget'];
+['Gross Margin%']=['Gross Margin']\['Sales']*100;
+['Sales']=N:['Price']*['Units']/1000;
+
+FEEDERS;
+['Units']=>['Price'];
+['Units']=>['Sales'];
+['Units']=>['Gross Margin%'];

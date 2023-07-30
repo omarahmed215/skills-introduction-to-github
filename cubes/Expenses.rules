@@ -1,0 +1,8 @@
+SKIPCHECK;
+['Commission', 'Amount'] =N: 	DB('Expenses','Commission',!Expenses_measures,!Months,!Subsidiary,!Versioning);
+['PENSION PLAN','Amount'] = 	N: ['SALARIES','Amount'] * ['PENSION PLAN','Percent'];
+['SOCIAL SECURITY','Amount']=N: ['SALARIES','Amount']*['SOCIAL SECURITY','Percent'];
+['HEALTH INSURANCE','Amount']=N: ['SALARIES','Amount'] * ['HEALTH INSURANCE','Percent'];
+
+Feeders;
+['SALARIES','Amount'] => ['PENSION PLAN','Amount'], ['SOCIAL SECURITY','Amount'], ['HEALTH INSURANCE','Amount'];

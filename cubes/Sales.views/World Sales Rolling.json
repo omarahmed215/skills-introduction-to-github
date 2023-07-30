@@ -1,0 +1,191 @@
+{
+	"@type":"NativeView",
+	"Name":"World Sales Rolling",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Time')/Hierarchies('Time')/Subsets('Rolling 12 Months')"
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Region')/Hierarchies('Region')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('Americas')"
+					},
+					{
+						"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('North America')"
+					},
+					{
+						"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('Canada')"
+					},
+					{
+						"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('Mexico')"
+					},
+					{
+						"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('United States')"
+					},
+					{
+						"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('South America')"
+					},
+					{
+						"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('Argentina')"
+					},
+					{
+						"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('Brazil')"
+					},
+					{
+						"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('Chile')"
+					},
+					{
+						"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('Uruguay')"
+					}
+				]
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Version')/Hierarchies('Version')"
+				},
+				"Expression":"TM1SubsetAll([Version])"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('Budget')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Account')/Hierarchies('Account')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('Gross Margin%')"
+					},
+					{
+						"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('Price')"
+					},
+					{
+						"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('Units')"
+					},
+					{
+						"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('Sales')"
+					},
+					{
+						"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('Variable Costs')"
+					},
+					{
+						"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('Promo1')"
+					},
+					{
+						"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('Promo2')"
+					},
+					{
+						"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('Promo3')"
+					},
+					{
+						"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('Promo4')"
+					},
+					{
+						"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('Promo5')"
+					},
+					{
+						"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('Base Costs')"
+					},
+					{
+						"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('Launch Date')"
+					},
+					{
+						"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('Units2')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('Units')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Product')/Hierarchies('Product')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('Total')"
+					},
+					{
+						"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series')"
+					},
+					{
+						"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series Sedan')"
+					},
+					{
+						"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 3.4 L Sedan')"
+					},
+					{
+						"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 1.8 L Sedan')"
+					},
+					{
+						"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 2.5 L Sedan')"
+					},
+					{
+						"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 3.0 L Sedan')"
+					},
+					{
+						"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 2.0 L Sedan')"
+					},
+					{
+						"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series Wagon')"
+					},
+					{
+						"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 4WD')"
+					},
+					{
+						"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('L Series')"
+					},
+					{
+						"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('T Series')"
+					},
+					{
+						"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('SUV')"
+					},
+					{
+						"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('Sports')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 3.4 L Sedan')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.#########"
+}

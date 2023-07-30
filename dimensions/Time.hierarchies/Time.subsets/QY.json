@@ -1,0 +1,22 @@
+{
+	"@type":"Subset",
+	"Name":"QY",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('Q1-17')"
+		},
+		{
+			"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('Q2-17')"
+		},
+		{
+			"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('Q3-17')"
+		},
+		{
+			"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('Q4-17')"
+		},
+		{
+			"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2017')"
+		}
+	]
+}

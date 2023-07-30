@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"Year",
+	"Expression":"{EXCEPT(DESCENDANTS({[Time].[Year].DEFAULTMEMBER} , 1 , SELF_AND_BEFORE) , {[Time].[Year].[All Year]})}"
+}

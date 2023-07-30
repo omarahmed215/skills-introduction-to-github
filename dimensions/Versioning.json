@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Versioning",
+	"Hierarchies@Code.links":
+	[
+		"Versioning.hierarchies/Versioning.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Versioning')/Hierarchies('Versioning')"
+	}
+}

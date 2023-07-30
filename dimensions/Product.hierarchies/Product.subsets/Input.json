@@ -1,0 +1,163 @@
+{
+	"@type":"Subset",
+	"Name":"Input",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 3.4 L Sedan')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 1.8 L Sedan')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 2.5 L Sedan')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 3.0 L Sedan')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 2.0 L Sedan')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 1.8 L Wagon')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 2.0 L Wagon')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 2.5 L Wagon')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 3.0 L Wagon')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 3.4 L Wagon')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 2.5 L Sedan 4WD')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 3.0 L Sedan 4WD')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 3.4 L Sedan 4WD')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 2.5 L Wagon 4WD')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 3.0 L Wagon 4WD')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('S Series 3.4 L Wagon 4WD')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('L Series 1.6 L Sedan')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('L Series 1.8 L Sedan')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('L Series 2.0 L Sedan')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('L Series 2.5 L Sedan')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('L Series 1.8 L Wagon')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('L Series 2.0 L Wagon')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('L Series 1.6 L Convertible')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('L Series 1.8 L Convertible')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('L Series 2.0 L Convertible')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('L Series 2.5 L Convertible')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('L Series 1.8 L Wagon 4WD')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('L Series 2.0 L Wagon 4WD')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('T Series 2.8 L Sedan')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('T Series 3.2 L Sedan')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('T Series 4.0 L Sedan')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('T Series 5.0 L Sedan')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('T Series 2.8 L Coupe')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('T Series 3.2 L Coupe')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('T Series 4.0 L Coupe')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('T Series 5.0 L Coupe')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('Brighton Limited')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('Brighton Platinum')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('Cascade CX')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('Cascade RX')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('Cascade LX')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('Bryce J40')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('Bryce J50')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('Bryce J60')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('Royale i10')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('Royale i50')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('Royale i60')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('Spectre CL')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('Spectre PL')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('Spectre RL')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('Skyfall London')"
+		},
+		{
+			"@id":"Dimensions('Product')/Hierarchies('Product')/Elements('Skfall Cambridge')"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"@type":"Dimension",
+	"Name":"Region",
+	"AllLeavesHierarchyName":"Leaves",
+	"Hierarchies@Code.links":
+	[
+		"Region.hierarchies/Region.json",
+		"Region.hierarchies/By Vice President.json",
+		"Region.hierarchies/H2 Reorg.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Region')/Hierarchies('Region')"
+	}
+}

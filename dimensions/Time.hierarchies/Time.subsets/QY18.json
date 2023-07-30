@@ -1,0 +1,22 @@
+{
+	"@type":"Subset",
+	"Name":"QY18",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('Q1-18')"
+		},
+		{
+			"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('Q2-18')"
+		},
+		{
+			"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('Q3-18')"
+		},
+		{
+			"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('Q4-18')"
+		},
+		{
+			"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2018')"
+		}
+	]
+}

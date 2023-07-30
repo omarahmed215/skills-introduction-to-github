@@ -1,0 +1,16 @@
+{
+	"@type":"Hierarchy",
+	"Name":"RFI_Measures",
+	"Elements":
+	[
+		{
+			"Name":"Count",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Score",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

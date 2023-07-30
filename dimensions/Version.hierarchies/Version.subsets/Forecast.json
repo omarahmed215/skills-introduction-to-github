@@ -1,0 +1,16 @@
+{
+	"@type":"Subset",
+	"Name":"Forecast",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('Forecast')"
+		},
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('Forecast_High')"
+		},
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('Forecast_Low')"
+		}
+	]
+}

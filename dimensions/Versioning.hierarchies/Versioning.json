@@ -1,0 +1,16 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Versioning",
+	"Elements":
+	[
+		{
+			"Name":"Budget Version 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budget Version 2",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}
