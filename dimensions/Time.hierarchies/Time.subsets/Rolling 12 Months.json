@@ -1,5 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"Rolling 12 Months",
-	"Expression":"{FILTER( {TM1SUBSETALL( [Time] )}, [Time].[ActFor] = \"F\")}"
-}
