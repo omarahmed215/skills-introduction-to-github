@@ -1,5 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"Car Class",
-	"Expression":"{DRILLDOWNMEMBER({[Product].[Product].[Total]} , {[Product].[Product].[Total]} , RECURSIVE)}"
-}
